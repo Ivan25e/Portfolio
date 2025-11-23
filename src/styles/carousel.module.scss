@@ -1,0 +1,33 @@
+.carouselWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220px;        // fixed width for consistent look
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.carouselTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff; // change depending on your theme
+    margin-bottom: 12px;
+}
+
+.carouselImage {
+    width: 150px;     // force a square size
+    height: 150px;
+    object-fit: contain;  // keeps image proportions
+    filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.25));
+}
+
+@keyframes glow {
+    from {
+        filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.1));
+    }
+    to {
+        filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    }
+}
