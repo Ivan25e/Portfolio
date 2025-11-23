@@ -9,15 +9,23 @@ import devopsLogo from '../assets/carousel/devops.png';
 import powerAppsLogo from '../assets/carousel/powerapps.png';
 import sharepointLogo from '../assets/carousel/sharepoint.png';
 import typescriptLogo from '../assets/carousel/typescript.png';
+import gitLogo from '../assets/carousel/git.png';
+import sqlLogo from '../assets/carousel/sql.png';
+import nodeLogo from '../assets/carousel/node.png';
+import laravelLogo from '../assets/carousel/laravel.png';
 
 const images = [
     { src: reactLogo, alt: "React" },
     { src: angularLogo, alt: "Angular" },
     { src: typescriptLogo, alt: "TypeScript" },
+    { src: gitLogo, alt: "Git" },
+    { src: sqlLogo, alt: "SQL" },
+    { src: nodeLogo, alt: "NodeJS" },
+    { src: laravelLogo, alt: "Laravel (PHP)" },
     { src: sharepointLogo, alt: "SharePoint (SPFx and SharePoint Online)" },
     { src: devopsLogo, alt: "Azure DevOps" },
     { src: powerAppsLogo, alt: "Power Apps" },
-    { src: powerAutomateLogo, alt: "Power Automate (Cloud & Desktop)" }
+    { src: powerAutomateLogo, alt: "Power Automate (Cloud & Desktop)" },
 ];
 
 export default function Carousel() {
