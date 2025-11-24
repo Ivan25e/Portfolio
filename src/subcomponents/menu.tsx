@@ -48,9 +48,9 @@ export default function Menu() {
             theme={{
                 components: {
                     Menu: {
-                    darkItemSelectedBg: '#2a2a2a',    // selected background
-                    darkItemSelectedColor: '#ffffff', // selected text
-                    darkItemHoverBg: '#3b3b3b',       // hover bg
+                        darkItemSelectedBg: '#2a2a2a',
+                        darkItemSelectedColor: '#ffffff',
+                        darkItemHoverBg: '#3b3b3b',
                     }
                 }
             }}

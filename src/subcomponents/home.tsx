@@ -19,7 +19,7 @@ export default function Home() {
 
                 <Col xs={22} sm={16} md={12} lg={12}>
                     <div className={styles.textContent}>
-                        <h2>Hi, I'm Iván — a Software Developer specializing in building scalable, high-performance web applications.</h2>
+                        <h2>Hi, I'm Iván — a Software Developer passionate about creating scalable, high-performance web applications.</h2>
                         <p>
                             I focus on creating intuitive interfaces, automating workflows, and delivering efficient cloud-based solutions. 
                             With experience across React, Angular, TypeScript, SPFx, Power Platform, and Azure DevOps, 
