@@ -4,3 +4,7 @@ declare module '*.png';
 declare module '*.svg';
 declare module '*.webp';
 declare module '*.gif';
+
+export default defineConfig({
+    base: '/Portfolio/',
+});
