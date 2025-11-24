@@ -70,12 +70,12 @@ class Scene extends Phaser.Scene {
         this.isGameOver = true;
         this.bubbleTimer.remove();
 
-        const txt = this.add.text(200, 200, "GAME OVER", {
+        this.add.text(200, 200, "GAME OVER", {
             color: "#fff",
             fontSize: "32px"
         }).setOrigin(0.5);
 
-        const restart = this.add.text(200, 260, "Try Again", {
+        this.add.text(200, 260, "Try Again", {
             color: "#fff",
             fontSize: "20px",
             backgroundColor: "#444",
